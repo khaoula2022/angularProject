@@ -9,6 +9,7 @@ export class Livres {
     publication_date:string;
     number_of_pages: number ;
     image : string ;
+    type:string;
 
 
 }

@@ -11,6 +11,8 @@ import { DetailsComponent } from './details/details.component';
 import { LivreComponent } from './livre/livre.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ContenuComponent } from './contenu/contenu.component';
+import { CarouselComponent } from './carousel/carousel.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 
 @NgModule({
@@ -20,7 +22,10 @@ import { ContenuComponent } from './contenu/contenu.component';
     HomeComponent,
     DetailsComponent,
     LivreComponent,
-    ContenuComponent
+    ContenuComponent,
+    CarouselComponent,
+
+
   ],
   imports: [
     BrowserModule,
@@ -29,6 +34,7 @@ import { ContenuComponent } from './contenu/contenu.component';
     ReactiveFormsModule,
     HttpClientModule,
     FontAwesomeModule,
+    CarouselModule,
 
   ],
   providers: [],
